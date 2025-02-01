@@ -1,7 +1,6 @@
 'use client'; // Add client directive to enable client-side rendering
 
 import React, { useState, useEffect } from 'react';
-import MenuText from "./components/menuText";
 import "./css/topbar.css";
 import "./css/mainImg.css";
 import "./css/Homeconfig.css";
@@ -59,9 +58,10 @@ export default function Home() {
           <h2>美術</h2>
         </div>
         <div className="menu">
-          <MenuText link="/" text="HOME" />
-          <MenuText link="/" text="NEWS" />
-          <MenuText link="/" text="ABOUT" />
+          <a href='/'><span>MEMBER</span></a>
+          <a href='/'><span>WORKS</span></a>
+          <a href='/'><span>NEWS</span></a>
+          <a href='/'><span></span></a>
         </div>
       </div>
       <div className="main-img">

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/css/topbar.css"],"sourcesContent":[".topbar {\n    display: flex;\n    width: 100%;\n    height: 12vh;\n}\n.logo {\n    margin-left: 4em;\n    width: 20%;\n    display: flex;\n    height: 12vh;\n}\n.logo h2 {\n    display: block;\n    font-size: 2.5em;\n    text-align: center;\n    margin: auto 0;\n}\n.menu {\n    display: flex;\n    margin-left: 40%;\n    width: 30%;\n    height: 12vh;\n    box-sizing: border-box;\n}\n.menu a {\n    display: flex;\n    margin-left: 15%;\n    height: 12vh;\n    align-items: center;\n    text-decoration: none;\n}\n.menu a span {\n    justify-content: center;\n    font-size: 1.0em;\n    color: black;\n    font-weight: bold;\n}"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;;;;AAMA;;;;;;;AAMA;;;;;;;;AAOA;;;;;;;;AAOA"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
